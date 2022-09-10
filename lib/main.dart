@@ -1,3 +1,4 @@
+import 'package:calculadora/pages/home.pages.dart';
 import 'package:flutter/material.dart';
 
 void main() {
