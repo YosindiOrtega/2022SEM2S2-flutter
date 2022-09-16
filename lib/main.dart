@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Calculadora',
       theme: ThemeData(
-      primarySwatch: Colors.blue,
+      primarySwatch: Colors.grey,
       ),
       home: HomePage(),
     );
   }
 }
-
